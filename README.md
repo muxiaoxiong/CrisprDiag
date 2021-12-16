@@ -1,8 +1,14 @@
 # CrisprDiag
 
-gene.fa & genome.fa  test file
+## Background
+The nucleic acid detection method based on the CRISPR/Cas system mainly consists of three steps, including nucleic acid amplification, specific nucleic acid sequence identification, and detection result reading. In the nucleic acid amplification stage, the small amount of DNA or RNA in the sample is amplified by polymerase chain reaction (PCR), recombinase polymerase amplification (RPA) or loop-mediated isothermal amplification (LAMP) for Cas /crRNA complex recognition.
 
-Usage
+
+## Retuirement
+python >=3.5
+
+## Usage
+gene.fa & genome.fa  test file
 ```python
 python RAVI.py -i gene.fa -g genome.fa -o output
 ```
