@@ -6,7 +6,7 @@ Usage
 ```python
 python RAVI.py -i gene.fa -g genome.fa -o output
 ```
-
+```
 Options:
     -h         Display help information
     -s         PAM sequence                                 <string>         [default:NGG]
@@ -18,3 +18,4 @@ Options:
     -1         PCR
     -2         RPA
     -3         LAMP
+```
